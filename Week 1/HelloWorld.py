@@ -18,5 +18,5 @@ model.fit(xs, ys, epochs=500)
 
 # Predict the value of y for x = 10
 
-print(model.predict([2.0]))
+print(model.predict([10]))
 
