@@ -18,4 +18,11 @@ def housingMarket():
 
     return model
 
+model = housingMarket()
+
+new_y = 7.0
+
+prediction = model.predict([new_y])
+print(str(int(prediction)) + "0" +" thousand dollars")
+
 
